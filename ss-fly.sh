@@ -338,7 +338,7 @@ generate_config() {
     "local_port":1080,
     "password":"$1",
     "timeout":300,
-    "method":"aes-256-cfb",
+    "method":"aes-192-cfb",
     "fast_open":false
 }
 EOF
